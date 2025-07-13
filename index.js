@@ -80,10 +80,10 @@ const store = {
     }
 }
 
-let phoneNumber = "911234567890"
+let phoneNumber = "27767494368"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
-global.botname = "Lucky Tech Hub Bot"
+global.botname = "𝕬𝖛𝖊.𝕭☚⍢⃝☚"
 global.themeemoji = "•"
 
 const settings = require('./settings')
@@ -217,7 +217,7 @@ async function startXeonBotInc() {
         }
 
         // Clean the phone number - remove any non-digit characters
-        phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
+        phoneNumber = phoneNumber.replace('27767494368')
 
         // Ensure number starts with country code
         if (!phoneNumber.startsWith('62') && !phoneNumber.startsWith('91')) {
@@ -264,7 +264,7 @@ async function startXeonBotInc() {
             console.log(chalk.cyan(`< ================================================== >`))
             console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: LUCKY TECH HUB`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: luckytechhub`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: 27767494368`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: LUCKY TECH HUB`))
             console.log(chalk.green(`${global.themeemoji || '•'} 🤖 Bot Connected Successfully! ✅`))
         }
